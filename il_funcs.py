@@ -1,7 +1,5 @@
 import cv2
 
-"Test"
-
 def redimensionar( path, output, factor ):
     var = cv2.imread(path)
     var = cv2.cvtColor(var, cv2.COLOR_BGR2GRAY)
