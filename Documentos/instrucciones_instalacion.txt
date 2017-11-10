@@ -1,0 +1,41 @@
+﻿---------------------------------
+Python
+---------------------------------
+https://www.anaconda.com/download/ (Versión 3.6)
+
+Añadir python a las environment variables (https://www.youtube.com/watch?v=Y2q_b4ugPWk)
+
+---------------------------------
+OpenCV
+---------------------------------
+En cmd escribir: 
+	pip install opencv-contrib-python
+
+	Si no funciona lo de arriba ve esto:
+		https://pypi.python.org/pypi/opencv-contrib-python
+
+Ve a esta pagina: https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
+
+Descarga:
+	numpy‑1.13.3+mkl‑cp36‑cp36m‑win_amd64.whl
+
+Cuando lo instales abre cmd en el folder donde lo descargaste. El comando para cambiar
+de directorio en terminal es "cd" seguido por la carpeta que quieres usar, por ejemplo 
+	cd Downloads
+
+Despues de hacer esto corre el siguiente comando:
+	pip install numpy‑1.13.3+mkl‑cp36‑cp36m‑win_amd64.whl
+	
+	(Si no estas en la carpeta que debe ser no va a funcionar.)
+
+---------------------------------------------------------------------------
+Tutoriales que son de ayuda:
+	https://www.youtube.com/watch?v=Z78zbnLlPUA&list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq
+---------------------------------------------------------------------------
+
+Spyder Error MKL
+	conda update conda
+	conda update anaconda
+	conda update mkl
+
+---------------------------------------------------------------------------

@@ -5,9 +5,10 @@ import il_funcs as il
 
 path1 = 'C:\\Users\\bigse\\Limpiador\\Fotos\\IMG_6079.jpg'
 template = 'C:\\Users\\bigse\\Limpiador\\Fotos\\res_6079.jpg'
+res_fac = 8
 
 img = cv2.imread(path1)
-img = cv2.resize(img, None, fx=(1/8), fy=(1/8), interpolation = cv2.INTER_AREA)
+img = cv2.resize(img, None, fx=(1/res_fac), fy=(1/res_fac), interpolation = cv2.INTER_AREA)
 template = cv2.imread(template, 0)
 w, h = template.shape[::-1]
 
